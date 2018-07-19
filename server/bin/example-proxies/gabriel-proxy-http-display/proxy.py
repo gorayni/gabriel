@@ -36,6 +36,9 @@ dir_file = os.path.dirname(os.path.realpath(__file__))
 sys.path.insert(0, os.path.join(dir_file, "../../.."))
 import gabriel
 import gabriel.proxy
+import logging
+root = logging.getLogger()
+root.setLevel(logging.DEBUG)
 LOG = gabriel.logging.getLogger(__name__)
 
 share_queue = Queue.Queue(gabriel.Const.MAX_FRAME_SIZE)
