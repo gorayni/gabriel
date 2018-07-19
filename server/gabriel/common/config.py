@@ -123,7 +123,7 @@ class ServiceMeta(object):
 class Debug(object):
     TIME_MEASUREMENT = False
     LOG_LEVEL_FILE = logging.ERROR
-    LOG_LEVEL_CONSOLE = logging.WARNING
+    LOG_LEVEL_CONSOLE = logging.DEBUG
     LOG_STAT = False
     DIRECT_RETURN = True
     SAVE_IMAGES = False
