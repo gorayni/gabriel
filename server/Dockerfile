@@ -11,6 +11,8 @@ RUN apt-get update \
 
 RUN apt-get install -y \
     build-essential \
+    git \
+    nano \
     pkg-config \
     python2.7 \
     python-dev \
@@ -20,8 +22,7 @@ RUN apt-get install -y \
     python-psutil \
     python-setuptools \
     python-opencv \
-    python-matplotlib \
-    git
+    python-matplotlib
 
 # RUN pip install -U pip
 RUN pip install -U setuptools
