@@ -23,7 +23,7 @@ RUN apt-get install -y \
     python-matplotlib \
     git
 
-RUN pip install -U pip
+# RUN pip install -U pip
 RUN pip install -U setuptools
 RUN pip install -U numpy
 
