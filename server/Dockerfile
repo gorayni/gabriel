@@ -27,7 +27,7 @@ RUN pip install -U pip
 RUN pip install -U setuptools
 RUN pip install -U numpy
 
-RUN git clone https://github.com/cmusatyalab/gabriel.git
+RUN git clone https://github.com/gorayni/gabriel.git
 WORKDIR /gabriel/server
 RUN pip install -r requirements.txt
 RUN python setup.py install
