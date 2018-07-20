@@ -41,4 +41,4 @@ WORKDIR /
 EXPOSE 9098 9111 7070 22222
 
 # Define default command.
-CMD ["bash", "-c", "gabriel-control -n eth0 & sleep 5; gabriel-ucomm & sleep 5; cd /gabriel/server/bin/example-proxies/gabriel-proxy-http-display && python proxy.py"]
+CMD ["bash", "-c", "gabriel-control -n eth0 & sleep 5; gabriel-ucomm & sleep 5; cd /gabriel/server/bin/example-proxies/gabriel-proxy-http-display && ./proxy.py"]
