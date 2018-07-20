@@ -6,4 +6,3 @@ class Config(object):
     VIDEO_STREAM_PORT = 9098
     RESULT_RECEIVING_PORT = 9111
     TOKEN=1
-z
